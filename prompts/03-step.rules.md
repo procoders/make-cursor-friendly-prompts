@@ -84,8 +84,9 @@ Special requirements (MANDATORY):
 
 3. Other rules to include (examples, adapt to repo structure from ./docs):
    - 2–4 GLOBAL rules (`alwaysApply: true`, no or blank `globs`):
-     - Use ./docs as primary context.
-     - Respect architecture from ./docs/01-architecture.md.
+     - Use @./docs as primary context.
+     - Respect architecture from @./docs/01-architecture.md.
+     - Apply code conventions and agreements from @./docs/02-global-code-quality.md.
      - Enforce DRY, English-only, no magic numbers, no low-quality naming.
      - Encourage MCP context7 usage for lookups and repo-wide search, when available.
    - Several SCOPED rules (`globs` set, `alwaysApply: false`):
