@@ -99,7 +99,7 @@ Special requirements (MANDATORY):
      - e.g. migrations & versioning, API contract changes.
      - These are loaded when explicitly referenced.
 
-You create files with cursors rules:
+You must create files with cursors rules:
 
 - Use EXACTLY this structure:
 
@@ -109,6 +109,7 @@ You create files with cursors rules:
   globs: <glob pattern(s) or leave empty>
   alwaysApply: <true|false>
   ---
+  - When use globs, follow format 1-line, comma-separated, no quotes, for example: "globs: graphql/**/*.graphql, app/GraphQL/**/*.php'
   - Bullet points with concise, actionable instructions.
   - You MAY reference docs, e.g.:
     - "Follow layering rules from ./docs/01-architecture.md."
