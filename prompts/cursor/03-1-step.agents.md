@@ -226,6 +226,16 @@ Output format:
   - git diff --stat
   - git status --short
 
+
+## CLAUDE.md
+Add to `CLAUDE.md` secton "Subagent Routing (use proactively)"
+- If requirements are vague / UI-UX / ICP fit matters → use `domain-product-expert` FIRST to produce acceptance criteria.
+- If touching architecture, data flow, auth, deployment, or cross-cutting concerns → use `architect-planner` before coding.
+- For implementation tasks → use `implementer` (must follow docs + rules, DRY/KISS).
+- After any non-trivial code change → use `validator` to run checks and review regressions.
+- If using any external library/service with no local examples → MUST use context7 MCP; do not guess APIs.
+
+
 ## Final chat output requirements
 - Print the team table first.
 - Then list created/updated files.
