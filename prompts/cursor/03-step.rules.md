@@ -12,8 +12,8 @@ You must create files that are ready to commit to the repo.
 
 Output artifacts (must be created/updated):
 1) ./CLAUDE.md  (VERY short: 20–40 lines total)
-2) ./.claude/rules/*.md  (modular rules; mostly path-scoped via YAML `paths:`)
-3) ./.claude/skills/*/SKILL.md  (semantic “apply intelligently” rules as Skills)
+2) ./.claude/rules/*.md  (modular rules; mostly path-scoped via YAML `paths:`). Webfetch from https://code.claude.com/docs/en/memory.md to know details.
+3) ./.claude/skills/*/SKILL.md  (semantic “apply intelligently” rules as Skills). Webfetch from https://code.claude.com/docs/en/skills.md to know details.
 4) ./.claude/RULES_GENERATION_REPORT.md  (traceability + validation)
 
 Optional (only if repo already has MCP config or docs/checklist mention it):
