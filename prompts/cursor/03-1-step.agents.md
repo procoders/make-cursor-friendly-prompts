@@ -98,6 +98,7 @@ Then write the agent SYSTEM PROMPT with:
 - Knowledge note policy where relevant
 
 Claude Code uses the `description` field for proactive delegation. Make the descriptions very specific and trigger-rich.
+IMPORTANT: Avoid the YAML multiline indicator without content — Claude Code does not parse multiline descriptions.
 
 ## Knowledge note policy (domain-product-expert only)
 The domain-product-expert may write new files under ./docs/knowledge/ when web research produced durable insights that affect:
