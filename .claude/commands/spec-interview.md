@@ -18,6 +18,22 @@ Parse `$ARGUMENTS`:
 
 Continue interviewing until ALL areas are thoroughly covered. Do NOT stop after 1-2 rounds.
 
+### Research with WebSearch (ENCOURAGED)
+
+Use `WebSearch` tool proactively when:
+- Unsure about best practices for a specific pattern
+- Need to compare implementation approaches (e.g., "pagination vs virtualization performance")
+- Want to find how similar products solved this problem
+- Looking for industry standards or conventions
+- Analyzing tradeoffs between libraries/tools
+
+Examples:
+- "best practices for handling rate limits in API integrations 2025"
+- "how does Stripe handle webhook retry logic"
+- "virtualized list vs pagination UX tradeoffs"
+
+Share relevant findings with user during interview to inform decisions.
+
 ### Interview Rules
 
 1. **Use AskUserQuestion tool** for EVERY question round
